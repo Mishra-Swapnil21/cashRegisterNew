@@ -18,9 +18,30 @@ body {
 .table-content {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: fit-content;
+    width: 80px;;
     border: 2px solid #ddd;
     padding: 0.5rem;
+    margin-top: 2rem ;
+    margin-left: 20%;
+    overflow: auto;
+    color: black;
+    background-color: #00FFFF ;
+    
+}
+
+#click-btn {
+    width: 15%;
+    position: static;
+    margin-left: 43%
+}
+ 
+
+
+.no-of-notes {
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+    background-color: white;
+
 }
 
 
