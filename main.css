@@ -1,4 +1,5 @@
 body {
+    margin:0%;
     background-color: black;
     color: white;
 
@@ -10,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 50vw;
+   margin-top: 4%; 
    margin-left: auto;
    margin-right: auto;
    padding: 3rem ;
@@ -44,5 +46,36 @@ body {
     background-color: white;
 
 }
+
+footer {
+    background-color: dodgerblue;
+    margin-top: 4%;
+    margin-bottom: 0% ;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    text-align: center;
+
+}
+
+.footer-header {
+    padding: 1rem;
+    font-size: larger;
+    font-weight:700;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0.5rem;   
+}
+
+.link {
+    list-style-type:none;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding: 0.5rem;
+    }
 
 
